@@ -8,7 +8,7 @@ app = Flask(__name__)
 def generate_buzz():
     page = '<html><body><h1>'
     page += generator.generate_buzz()
-    page += '</h1><h2>this is old</h2></body></html>'
+    page += '</h1><h2> old</h2></body></html>'
     return page
 
 if __name__ == "__main__":
